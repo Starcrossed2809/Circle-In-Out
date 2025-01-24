@@ -121,7 +121,7 @@ p:nth-child(10) {
     border: 3px solid rgb(0, 255, 13);
     transform-style: preserve-3d;
     transform: rotateX(70deg) translateZ(50px);
-    animation: animate 5s ease-in-out calc(var(--i) * 0.05s) infinite;
+    animation: animate 5s ease-in-out calc(var(--i) * 0.08s) infinite;
     box-shadow: 0 0 15px rgb(124, 124, 124), inset 0 0 15px rgb(124, 124, 124);
 }
 
