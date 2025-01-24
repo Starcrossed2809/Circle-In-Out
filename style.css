@@ -12,6 +12,97 @@ body {
     overflow: hidden;
 }
 
+.wrapper {
+    display: flex;
+    width: 80%;
+    height: 50vh;
+    justify-content: center;
+    align-items: center;
+    bottom: -50%;
+    margin-bottom: 450px;
+}
+
+.text {
+    text-align: justify;
+}
+
+p {
+    display: inline-block;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 200px;
+    font-family: arial;
+    font-weight: bold;
+    transform: scale(0.5);
+    -webkit-text-stroke: 2px #808080;
+}
+
+p:nth-child(1) {
+    animation: hover 1s linear infinite;
+}
+
+p:nth-child(2) {
+    animation: hover 1s linear infinite 0.125s;
+}
+
+p:nth-child(3) {
+    animation: hover 1s linear infinite 0.25s;
+}
+
+p:nth-child(4) {
+    animation: hover 1s linear infinite 0.375s;
+}
+
+p:nth-child(5) {
+    animation: hover 1s linear infinite 0.5s;
+}
+
+p:nth-child(6) {
+    animation: hover 1s linear infinite 0.625s;
+}
+
+p:nth-child(7) {
+    animation: hover 1s linear infinite 0.75s;
+}
+
+p:nth-child(8) {
+    animation: hover 1s linear infinite 0.875s;
+}
+
+p:nth-child(9) {
+    animation: hover 1s linear infinite 1s;
+}
+
+p:nth-child(10) {
+    animation: hover 1s linear infinite 1.125s;
+}
+
+@keyframes hover {
+    0% {
+        transform: scale(0.5);
+        color: #121212;
+        -webkit-text-stroke: 2px #808080;
+    }
+
+    20% {
+        transform: scale(1);
+        color: #ffc0cb;
+        -webkit-text-stroke: 2px #ff0000;
+        filter: drop-shadow(0 0 1px #000000)
+        drop-shadow(0 0 1px #000000)
+        drop-shadow(0 0 3px #ff0000)
+        drop-shadow(0 0 5px #ff0000)
+        hue-rotate(10turn);
+    }
+
+    50% {
+        transform: scale(0.5);
+        color: #121212;
+        -webkit-text-stroke: #808080;
+    }
+}
+
+
 .container {
     position: absolute;
     top: 30%;
